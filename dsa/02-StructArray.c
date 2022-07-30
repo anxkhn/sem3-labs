@@ -5,7 +5,7 @@ struct book
     float price;
     int pages;
 } b[5];
-int main()
+void main()
 {
     int i;
     for (i = 0; i < 5; i++)
@@ -18,5 +18,4 @@ int main()
     {
         printf("Book: %d %s %.2f %d\n", i + 1, b[i].name, b[i].price, b[i].pages);
     }
-    return 0;
 }
