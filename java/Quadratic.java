@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.math;
 
-public class Main {
+public class Quadratic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter value for a: ");
