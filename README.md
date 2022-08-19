@@ -2,4 +2,4 @@
 Personal Code Repo for Mumbai University Information Technology Semester III Labs Codes.
 
 
-###### Feel free to use and share.
+###### Feel free to use and share responsibly. 
