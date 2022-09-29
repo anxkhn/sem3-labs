@@ -19,7 +19,7 @@ void main()
     int choice = 0;
     while (choice != 8)
     {
-        printf("\n\nChoose An Option \n1. Insert at beginning\n2. Insert at last\n3. Insert at any specific location\n4. Delete from beginning\n5. Delete from last\n6. Delete node after specified location\n7. Show\n8. Exit\n");
+        printf("\n\nChoose An Option \n1. Insert at beginning\n2. Insert at last\n3. Insert at any specific location\n4. Delete from beginning\n5. Delete from last\n6. Delete node after specified location\n7. Display\n8. Exit\n");
         printf("\nEnter your choice?\n");
         scanf("\n%d", &choice);
         switch (choice)
@@ -57,19 +57,12 @@ void beginsert()
     struct node *ptr;
     int item;
     ptr = (struct node *)malloc(sizeof(struct node *));
-    if (ptr == NULL)
-    {
-        printf("\nOVERFLOW");
-    }
-    else
-    {
-        printf("\nEnter value\n");
-        scanf("%d", &item);
-        ptr->data = item;
-        ptr->next = head;
-        head = ptr;
-        printf("\nNode inserted");
-    }
+    printf("\nEnter value\n");
+    scanf("%d", &item);
+    ptr->data = item;
+    ptr->next = head;
+    head = ptr;
+    printf("\nNode inserted");
 }
 void lastinsert()
 {
@@ -118,8 +111,9 @@ void specificinsert()
         printf("\nEnter element value");
         scanf("%d", &item);
         ptr->data = item;
-        printf("\nEnter the location after which you want to insert.");
+        printf("\nEnter the Position after which you want to insert");
         scanf("\n%d", &loc);
+        loc -= 1;
         temp = head;
         for (i = 0; i < loc; i++)
         {
@@ -210,10 +204,13 @@ void display()
     else
     {
         printf("\nPrinting values.\n");
+        printf("---------------------\n");
         while (ptr != NULL)
         {
-            printf("\n%d", ptr->data);
+            printf("%d->", ptr->data);
             ptr = ptr->next;
         }
+        printf("NULL\n---------------------");
     }
 }
+//TODO: Fix deletion Position i--
