@@ -3,7 +3,8 @@ Personal Code Repo for Mumbai University Information Technology Semester III Lab
 
 [PCPF](https://github.com/anxkhn/sem3-labs/tree/main/pcpf) <br>
 [DSA](https://github.com/anxkhn/sem3-labs/tree/main/dsa) <br>
-[JAVA](https://github.com/anxkhn/sem3-labs/tree/main/java) <br>
+[JAVA](https://github.com/anxkhn/sem3-labs/tree/main/java) <br> <br> 
+[SQL Basics & Table](https://github.com/anxkhn/SQLBasics) <br> 
 
 
 [📃 List of assignments.](https://github.com/anxkhn/sem3-labs/raw/main/List%20Of%20Lab%20Practicals%20SE-IT-TSEC.pdf)
