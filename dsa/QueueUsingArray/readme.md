@@ -1,4 +1,4 @@
-# Stack using Array
+# Queue Using Array
 
 ### Preprocessor directive
 
