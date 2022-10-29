@@ -60,7 +60,7 @@ void display()
 {
     if (s1.rear == -1)
     {
-        printf("Stack is empty.\n");
+        printf("Empty.\n");
     }
     else
     {
