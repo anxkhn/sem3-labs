@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-// using stdlib.h for exit(0) function
 
 #define SIZE 10
 
@@ -46,7 +45,6 @@ void display()
     if (s1.top == -1)
     {
         printf("Stack is empty.\n");
-        return;
     }
     else
     {
