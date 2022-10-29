@@ -31,14 +31,14 @@ void enqueue()
 {
     if (s1.rear == SIZE - 1)
     {
-        printf("Oberflow.\n");
+        printf("Overflow.\n");
     }
     else
     {
         // The first element condition
         if (s1.front == -1)
         {
-            s1.front = 0;
+            s1.front++;
         }
         printf("Enter a number: ");
         int x;
