@@ -70,7 +70,6 @@ void display()
     if (s1.top == -1)
     {
         printf("Stack is empty.\n");
-        return;
     }
     else
     {
