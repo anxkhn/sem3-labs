@@ -10,12 +10,12 @@ struct queue
     int rear;
 } s1;
 
-// Function created to handle enqueue
+
 void enqueue()
 {
     if (s1.rear == SIZE - 1)
     {
-        printf("Can't enqueue as the queue is full\n");
+        printf("Overflow.\n");
     }
     else
     {
@@ -33,12 +33,12 @@ void enqueue()
     return;
 }
 
-// Function created to handle dequeue
+
 void dequeue()
 {
     if (s1.front == -1)
     {
-        printf("Can't dequeue as the queue is empty\n");
+        printf("Underflow.\n");
     }
     else
     {
@@ -55,7 +55,6 @@ void dequeue()
     return;
 }
 
-// function to print the queue
 void display()
 {
     if (s1.rear == -1)
