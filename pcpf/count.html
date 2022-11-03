@@ -4,14 +4,15 @@
     <script>
         // Input
         let string = prompt("Enter a string: ");
-        //Processing
+        //Processing & Output
         let check = string.match(/[aeiou]/gi);
-        if (check != null) {
+        if (check != null) 
+        {
             count = check.length;
             alert("Count is " + count);
         }
-        //Output
-        else {
+        else 
+        {
             alert("Count is 0");
         }
     </script>
