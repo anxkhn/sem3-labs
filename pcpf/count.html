@@ -1,0 +1,19 @@
+<html>
+<body>
+    <h1>JavaScript Program</h1>
+    <script>
+        // Input
+        let string = prompt("Enter a string: ");
+        //Processing
+        let check = string.match(/[aeiou]/gi);
+        if (check != null) {
+            count = check.length;
+            alert("Count is " + count);
+        }
+        //Output
+        else {
+            alert("Count is 0");
+        }
+    </script>
+</body>
+</html>
